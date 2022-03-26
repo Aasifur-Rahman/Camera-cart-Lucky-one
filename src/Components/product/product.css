@@ -1,0 +1,12 @@
+.product{
+    width:300px;
+    height: 510px;
+}
+.product img{
+    width: 248px;
+    height: 248px;
+}
+.product-name{
+    font-size: 21px;
+    font-weight: 500;
+}
