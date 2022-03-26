@@ -30,11 +30,14 @@ const Shop = () => {
                         key={product.id}
                         product={product}
                         handleAddToCart={handleAddToCart}
+
                     ></Product>)
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                {
+                    products.map(cart => <Cart cart={cart}></Cart>)
+                }
             </div>
         </div>
     );
