@@ -1,12 +1,9 @@
 .product{
     width: 350px;
     height: 450px;
-    border: 1px solid rgba(60, 32, 85, 0.664);
+    box-shadow: 1px 3px 15px 4px rgba(17, 17, 17, 0.295);
     border-radius: 8px;
     position: relative;
-}
-.product:hover{
-    box-shadow: 1px 1px 10px rgba(17, 17, 17, 0.295);
 }
 .product img{
     width: 248px;
@@ -37,7 +34,15 @@
     position: absolute;
     right: 0px ;
     bottom: 0px;
-    padding-top: 10px ;  
+    padding-top: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn-cart p {
+    margin-top: 15px;
+    
 }
 .btn-cart:hover{
     background-color: rgba(147, 56, 252, 0.89);
