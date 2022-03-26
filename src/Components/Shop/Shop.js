@@ -8,6 +8,12 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [choose, setChoose] = useState([]);
+    const randomProducts = () => {
+        const randomNumber = Math.floor(Math.random() * cart.length);
+        const randomChoose = cart[randomNumber]
+        setChoose(randomChoose)
+    }
 
     useEffect(() => {
         fetch('products.json')
@@ -22,7 +28,10 @@ const Shop = () => {
         } else {
             alert('Only 4 products can be added')
         }
+    }
 
+    const clearAll = () => {
+        setCart([]);
     }
 
 
@@ -39,13 +48,15 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <h4 className='text-center mt-3'>Order Summary</h4>
+                <img className='choosen-one' src={choose.photo} alt="" />
+                <h2 className='text-center mb-4'>{choose.name}</h2>
                 {
                     cart.map(cart => <Cart
                         cart={cart}
                     ></Cart>)
                 }
-                <button className='cart-btn'>Choose One</button><br></br>
-                <button className='cart-btn'>Clear All</button>
+                <button onClick={randomProducts} className='cart-btn'>Choose One</button><br></br>
+                <button onClick={clearAll} className='cart-btn'>Clear All</button>
 
             </div>
         </div>
