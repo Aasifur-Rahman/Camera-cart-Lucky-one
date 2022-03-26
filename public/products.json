@@ -1,0 +1,56 @@
+[
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/4000d/4000d-1-500x500.jpg",
+        "id": "1",
+        "name": "Canon Eos 4000D",
+        "price": "$423"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/2000d/2000d-500x500.jpg",
+        "id": "2",
+        "name": "Canon Eos 2000D",
+        "price": "$463"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/250d/250d-1-500x500.jpg",
+        "id": "3",
+        "name": "Canon Eos 250D",
+        "price": "$666"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/panasonic/lumix-g7/g7-1-500x500.jpg",
+        "id": "4",
+        "name": "Panasonic Lumix G7",
+        "price": "$684"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/dslr-camera/nikon/d5600/d5600-1-500x500.jpg",
+        "id": "5",
+        "name": "Nikon D5600",
+        "price": "$730"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/dslr-camera/canon/800d/800d-9-500x500.jpg",
+        "id": "6",
+        "name": "CANON EOS 800D",
+        "price": "$760"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-500x500.jpg",
+        "id": "7",
+        "name": "CANON EOS 200D II",
+        "price": "$760"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/dslr-camera/sony/%20alpha-a6000/a6000-500x500.jpg",
+        "id": "8",
+        "name": "Sony Alpha A6000 Mirrorless Digital Camera",
+        "price": "$788"
+    },
+    {
+        "photo": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/canon/eos-m50-mark-ii/eos-m50-mark-ii-01-500x500.jpg",
+        "id": "9",
+        "name": "Canon EOS M50 Mark II",
+        "price": "$822"
+    }
+]
