@@ -7,7 +7,7 @@ import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('products.json')
@@ -17,7 +17,12 @@ const Shop = () => {
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
-        setCart(newCart);
+        if (newCart.length < 5) {
+            setCart(newCart);
+        } else {
+            alert('Only 4 products can be added')
+        }
+
     }
 
 
@@ -39,8 +44,8 @@ const Shop = () => {
                         cart={cart}
                     ></Cart>)
                 }
-                <button></button>
-                <button></button>
+                <button className='cart-btn'>Choose One</button><br></br>
+                <button className='cart-btn'>Clear All</button>
 
             </div>
         </div>

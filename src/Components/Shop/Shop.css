@@ -20,6 +20,25 @@
      gap: 30px;
      margin: 100px 16px;
  }
+
+.cart-btn{
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(0, 0, 0);
+  
+}
+.cart-btn:hover{
+    background-color: rgb(237, 212, 247);
+    color: black;
+}
+
+  /* All media query */
  @media screen and (max-width: 1312px) {
      .products-container{
          grid-template-columns: repeat(3, 1fr);
